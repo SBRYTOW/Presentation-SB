@@ -1,0 +1,125 @@
+html
+{
+    background-color:whitesmoke;
+    background-image: url("http://subtlepatterns.com/contemporary-china/");
+    font-family: Libre+Franklin;
+    font-size: 35px; 
+    color: darkslategrey;
+}
+
+#presentation
+{
+    background-color:cadetblue;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    color:whitesmoke;
+}
+
+
+#autoportrait
+{
+    border-radius: 50%;
+    height: 500px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#competences, #loisirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    background-color:beige;
+    margin: auto;
+    padding: 50px;
+    border-radius: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 10%;
+    padding-left: 10%;
+    box-shadow: 20px 20px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.fab fa-facebook-square
+{
+    color:darkslategrey;
+    background-color: darkslategrey;
+}
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    background-color:darkslategrey;
+    text-align: center;
+    font-size: 80px;
+    color: whitesmoke;
+    display: block;
+}
+#menu li{
+    padding-left: 0px;
+    padding-bottom: 500px;
+}

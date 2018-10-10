@@ -1,17 +1,19 @@
 html
 {
    
-    background-image: url("fond.jpg");
+    
     font-family: Libre+Franklin;
-    font-size: 35px; 
+    font-size: 45px; 
     color: darkslategrey;
+    margin-top: 0px;
 }
 
 #presentation
 {
-    background-color:cadetblue;
-    margin: auto;
-    padding: 50px;
+    background-color:rgba(10, 50, 100, 0.5);
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     text-align: center;
     color:whitesmoke;
 }
@@ -19,7 +21,7 @@ html
 
 #autoportrait
 {
-    border-radius: 50%;
+    border-radius: 3%;
     height: 500px;
     box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -41,6 +43,7 @@ p
     padding-right: 10%;
     padding-left: 10%;
     box-shadow: 20px 20px 2px 1px rgba(0, 0, 0, 0.2);
+    
 }
 .fab fa-facebook-square
 {
@@ -67,4 +70,18 @@ p
 {
     color : aliceblue;
      text-decoration: none;
+}
+.illustration
+{
+    width: 100%;
+    padding-top: 10%;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.illustration:hover
+{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }

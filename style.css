@@ -1,7 +1,6 @@
 html
 {
-   
-    
+    background-color: rgba(50, 50, 50);
     font-family: Libre+Franklin;
     font-size: 45px; 
     color: darkslategrey;
@@ -16,6 +15,7 @@ html
     padding-bottom: 30px;
     text-align: center;
     color:whitesmoke;
+    margin-left: 150px;
 }
 
 
@@ -24,12 +24,18 @@ html
     border-radius: 3%;
     height: 500px;
     box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 150px;
 }
 p
 {
-    color: darkslategrey;
-    text-align: center;
+    color: whitesmoke;
     font-size: 50px;
+    width: 65%;
+}
+
+.paragraphe{
+    margin-left: 17%;
+    text-align: center;
 }
 
 #competences, #loisirs
@@ -42,7 +48,7 @@ p
     margin-right: 20%;
     padding-right: 10%;
     padding-left: 10%;
-    box-shadow: 20px 20px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
     
 }
 .fab fa-facebook-square
